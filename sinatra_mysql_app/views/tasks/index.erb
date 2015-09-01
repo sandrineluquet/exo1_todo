@@ -1,0 +1,10 @@
+<h1>Listing tasks</h1>
+
+<% @tasks.each do |task| %>
+    <li><%= task.name %></li>
+    <li><%= task.desc %></li>
+<% end %>
+
+<!-- Add delete task button -->
+
+<a href='/new'> New Task </a>
